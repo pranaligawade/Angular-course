@@ -1,0 +1,14 @@
+<!DOCTYPE html> // tell browser what specification and standards this web  pages is gooing to follow
+<html lang="en"> // opening tag of html//
+<head>// carry the info of webpage//data to be read by browser
+    
+    <title>first day of training</title> // title- providing name  to the webpage
+    <meta content="author" description="pranali gawade ">  </meta> // data about  your hole webpage
+</head>
+<body>// desicption of webpages //user interface-whatever use or t aviable for user.// content visible to user
+   ....... 
+</body>
+</html>// closing tag
+<p>hii, this is first</p>- writing for paragram or more details
+(opening------ content----closing )
+---------html element------------------
