@@ -32,7 +32,7 @@ Integrating Angular Application with REST API
 Pipes
 Use of pipes
 Building our own angular pipe
-Directives
+Directivess
 What are directives and there types?
 Angular Material
 Using Angular Material
