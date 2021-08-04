@@ -1,0 +1,39 @@
+
+.parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+.parent >.inx{
+    /* background-color: slategray; */
+    padding: 12px;
+    margin: 20px;
+    font-weight: bold;
+    /* border: 8px solid black; */
+}
+.parent >.ipx    {
+    background-color: cyan;
+    padding: 12px;
+    margin: 20px;
+    background-image: url('war.jpeg');
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
+ .parent1{
+    display: grid;
+   grid-template-columns: 1fr  1fr;
+   padding: 5px;
+   margin: 20px;
+   /* background-color: burlywood; */
+    font-weight: bold;
+   /* border: 8px solid black;  */
+    text-align: center;   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} 
+.xxx
+{
+    /* background-color:slategray; */
+       /* border: 8px solid black; */
+    margin: 20px;
+}

@@ -1,0 +1,20 @@
+
+body{
+    background-color: black;
+    font: bold;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-style: italic;
+    font-size:20px;
+}
+form{
+  
+    background-color:coral;
+    font: bold;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-style: italic;
+  
+}
