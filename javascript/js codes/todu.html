@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>TUDO Event  in js</title>
+    <style>
+        body{
+            background-color: bisque;
+        }
+        .heading{
+            width:inherit;
+            text-align: center;
+            font-family:timesNewRoman;
+        }
+        .wrapper{
+            display: flex;
+            width: 20%;
+            justify-content: space-between;
+            margin: 12px 0;
+        }
+        
+        .pid{
+            display:list-item;
+           text-align:right; 
+           height: 550px;
+           overflow-y: auto;
+           /* padding-right:80px;
+    ; */
+        padding:52px 80px 52px 600px;   
+        }
+        ul{
+            padding: 15px;
+            background-color:lightgray;
+        }
+        li{
+            list-style: none;
+            padding: 10px 5px;
+            background-color: gray;
+            margin: 12px 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0,1);
+            border-radius: 3px;
+            transition: .4s;
+        }
+       input{
+         padding: 6px 4px;
+         width: 60%;
+        
+       }
+       /* .pid >li:nth-child(2n)
+    {
+        background-color:gray;
+    }
+   .pid>li:nth-child(2n + 1)
+{
+    background-color:lightgray;
+    overflow-y: auto;
+    } */
+    button:hover{
+        background-color: crimson;
+    }
+    li:hover{
+        background-color:azure;
+        
+    }
+    .checked{
+        
+        text-decoration: line-through;
+    }
+    </style>
+</head>
+<body>
+    <h1 class="heading">Todo AASSpplication </h1>
+    <div class="wrapper">
+     <input type="text" id="hi" >&nbsp;&nbsp;
+        <button class="btn"id="myBtn">add element!</button>
+      
+     
+    </div>
+    <div class="pid">
+        <h2><center>Todo list </center></h2>
+        <ul id="hello" >
+            <li class="checked">ji,todoo</li>
+            <li>hello,todoo</li>
+        </ul>
+    </div>
+    <script src="tudo.js"></script>
+</body>
+</html>
